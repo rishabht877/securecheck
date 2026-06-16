@@ -1,0 +1,142 @@
+{
+    "Items": [
+        {
+            "repo": {
+                "S": "rishabht877/securecheck-test"
+            },
+            "pr_title": {
+                "S": "Refactor auth middleware"
+            },
+            "timestamp": {
+                "S": "2026-06-16T07:15:00Z"
+            },
+            "findings_count": {
+                "N": "3"
+            },
+            "scan_id": {
+                "S": "scan-006"
+            },
+            "pr_number": {
+                "N": "6"
+            },
+            "severity": {
+                "S": "MEDIUM"
+            }
+        },
+        {
+            "repo": {
+                "S": "rishabht877/securecheck-test"
+            },
+            "pr_title": {
+                "S": "Add authentication flow"
+            },
+            "timestamp": {
+                "S": "2026-06-16T06:52:20Z"
+            },
+            "findings_count": {
+                "N": "5"
+            },
+            "scan_id": {
+                "S": "scan-002"
+            },
+            "pr_number": {
+                "N": "2"
+            },
+            "severity": {
+                "S": "HIGH"
+            }
+        },
+        {
+            "repo": {
+                "S": "rishabht877/securecheck-test"
+            },
+            "pr_title": {
+                "S": "Implement rate limiting"
+            },
+            "timestamp": {
+                "S": "2026-06-16T06:52:42Z"
+            },
+            "findings_count": {
+                "N": "2"
+            },
+            "scan_id": {
+                "S": "scan-003"
+            },
+            "pr_number": {
+                "N": "3"
+            },
+            "severity": {
+                "S": "MEDIUM"
+            }
+        },
+        {
+            "repo": {
+                "S": "rishabht877/securecheck-test"
+            },
+            "pr_title": {
+                "S": "Update dependencies"
+            },
+            "timestamp": {
+                "S": "2026-06-16T07:10:00Z"
+            },
+            "findings_count": {
+                "N": "0"
+            },
+            "scan_id": {
+                "S": "scan-005"
+            },
+            "pr_number": {
+                "N": "5"
+            },
+            "severity": {
+                "S": "CLEAN"
+            }
+        },
+        {
+            "repo": {
+                "S": "test/myrepo"
+            },
+            "findings_count": {
+                "N": "1"
+            },
+            "scan_id": {
+                "S": "scan-001"
+            },
+            "pr_number": {
+                "N": "42"
+            },
+            "severity": {
+                "S": "HIGH"
+            },
+            "timestamp": {
+                "S": "2026-06-08T04:12:00Z"
+            }
+        },
+        {
+            "repo": {
+                "S": "rishabht877/securecheck-test"
+            },
+            "pr_title": {
+                "S": "Fix SQL injection vulnerability"
+            },
+            "timestamp": {
+                "S": "2026-06-16T06:52:58Z"
+            },
+            "findings_count": {
+                "N": "7"
+            },
+            "scan_id": {
+                "S": "scan-004"
+            },
+            "pr_number": {
+                "N": "4"
+            },
+            "severity": {
+                "S": "HIGH"
+            }
+        }
+    ],
+    "Count": 6,
+    "ScannedCount": 6,
+    "ConsumedCapacity": null
+}
