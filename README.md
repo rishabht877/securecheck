@@ -33,3 +33,11 @@ Table: `securecheck-scans` | Partition key: `scan_id` (String)
 - Decoupling with SQS gave free retries, buffering, and protected EC2 from request floods.
 - A private subnet with a Lambda front door is the standard pattern, not a nice-to-have.
 - Auto Scaling Groups make EC2 actually production-ready by handling failure automatically.
+- Cross-account access is complex but exposes how IAM should be designed in real systems.
+
+## What We'd Do Differently
+
+- Run Terraform from a single shared backend (S3 + DynamoDB state lock) instead of local state so both teammates can apply.
+- Start both teammates in the same AWS account to avoid cross-account access friction.
+- Use VPC endpoints from day one for DynamoDB and S3 instead of routing through NAT Gateway.
+- Define a least-privilege IAM role per service instead of relying on LabRole.
